@@ -4,8 +4,7 @@
     font-family: "Montserrat", sans-serif;
     /* font-optical-sizing: auto;
     font-style: normal; */
-    background-color: #000;
-    color: #fff; 
+    color: black; 
     overflow: hidden;
  }
 
@@ -13,15 +12,181 @@
     height: 100vh;
     display: flex;
  }
+ /* nav-bar */
 
- .sidebar{
-    background-color: #121212;
-    width: 26rem;
-    border-radius: 1rem;
+ .header{
+   height: 64px;
+   background-color: #000;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-left: 2rem;
+   padding-right: 2rem;
  }
 
+ .nav-logo{
+   background-image: url(assets/logoCopy.png);
+   background-size: cover;
+   height: 2.5rem;
+   width: 2.5rem;
+   margin-right: 26rem;
+ }
+
+ .nav-searchBar{
+  display: flex;
+  opacity: 0.8;
+  margin-right: 5rem;
+ }
+
+ .s-home{
+  height: 3rem;
+  width: 3rem;
+  background-color: #1f1f1f;
+  border-radius: 50%;
+  display: flex;
+  align-self: center;
+  margin-right: 0.35rem ;
+ }
+
+ .search-input {
+   display: flex;
+   height: 3rem;
+   border-radius: 2.5rem;
+   background-color: #1f1f1f;
+   align-items: center;
+ }
+
+ .search-input input{
+  width: 21rem;
+  border: none;
+  background-color: #1f1f1f;
+  color: white;
+  font-size: 0.95rem;
+ }
+
+ .search-input input::placeholder{
+  color: white;
+  opacity: 0.8;
+ }
+
+ .s-icon i{
+  width: 2rem;
+  margin: 0.8rem;
+  font-size: 1.30rem;
+  color: white;
+  opacity: 0.8;
+  padding-top: 0.1rem ;
+ }
+
+ .s-home i{
+  opacity: 1;
+ }
+
+ .s-browse i{
+  height: 1.5rem;
+  width: 1.5rem;
+  border-left: 1px solid white;
+  border-radius: 0.8;
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+ }
+
+
+ .nav-options{
+   display: flex;
+   width: 26.5rem;
+   align-items: center;
+ }
+
+ .n-options-btn{
+   width: 8.5rem;
+   height: 2rem;
+   color: black;
+   background-color: white;
+   border-radius: 4rem;
+   font-size: 0.8rem;
+   font-weight: 700;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: none;
+ }
+  
+ .part2{
+  background-color : black;
+  color: white;
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+  opacity: 0.8;
+ }
+
+ .part2 i{
+  color: white;
+  font-size: 1rem;
+  padding-right: 0.5rem;
+ }
+
+ .n-options-icon i{
+  color: white;
+  font-size: 1.4rem;
+  margin-right: 1rem;
+  margin-top: 0.3rem;
+  opacity: 0.8;
+ }
+ 
+ .n-options-profile{
+  height: 3rem;
+  width: 3rem;
+  background-color: #1f1f1f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  right: 1rem;
+ }
+
+ .n-profile{
+   height: 2rem;
+   width: 2rem;
+   background-color: rgba(255, 192, 245, 0.807);
+   color: rgb(107, 6, 135);
+   border-radius: 50%;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   font-weight: 700;
+ }
+ 
+/*  */
+
+ .sidebar{
+    background-color: #1f1f1f;
+    width: 26rem;
+    height: ;
+    border-radius: 1rem;
+    color: white;
+  }
+ 
+ .side-library{
+  margin-top: 5rem;
+  margin-left: 0.8rem;
+  height: 4.5rem;
+  display: flex;
+  font-size: 0.5rem;
+ }
+
+.side-library h1{
+  color: white;
+}
+
  .main-content{
-    background-color: #121212;
+    background-color: beige;
     flex: 1;
     overflow: auto;
     border-radius: 1rem;
@@ -29,9 +194,12 @@
  }
 
  .music-player{
-    background-color: #000;
+    background-color: rgba(251, 170, 251, 0.847);
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 4.5rem;
  }
+
+ 
+
