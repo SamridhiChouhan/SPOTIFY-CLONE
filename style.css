@@ -4,10 +4,14 @@
     font-family: "Montserrat", sans-serif;
     /* font-optical-sizing: auto;
     font-style: normal; */
-    color: black; 
+    /* color: black;  */
+    /* background-color: #000; */
     overflow: hidden;
  }
 
+ body{
+  background-color: #000;
+ }
  .main{
     height: 100vh;
     display: flex;
@@ -166,27 +170,95 @@
 /*  */
 
  .sidebar{
-    background-color: #1f1f1f;
+    background-color: #121111;
     width: 26rem;
-    height: ;
+    height: 36.3rem ;
     border-radius: 1rem;
     color: white;
+    margin-top: 70px;
+    opacity: 0.9;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
   }
  
  .side-library{
-  margin-top: 5rem;
+  /* padding: 16px 12px 8px; */
   margin-left: 0.8rem;
   height: 4.5rem;
   display: flex;
   font-size: 0.5rem;
+  justify-content: space-between;
+  margin-bottom: 10px;
  }
 
 .side-library h1{
   color: white;
+  padding-top: 20px;
+  padding-left: 12px;
 }
 
+.sl-btn{
+   width: 6rem;
+   height: 2.2rem;
+   background-color:#1f1f1f;
+   border-radius: 4rem;
+   font-size: 0.8rem;
+   font-weight: 700;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: none;
+   margin-top: 15px;
+   margin-right: 1.5rem;
+   /* margin-top: 0; */
+   /* opacity: 0.5; */
+  }
+
+.sl-btn span {
+  color: white;
+  margin-left: 1rem;
+  /* opacity: 1; */
+}
+
+.sl-btn i {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.sl-card{
+  padding-left: 25px;
+  height: 133px;
+  background-color: #1f1f1f;
+  margin: 8px ;
+  border-radius: 1rem;
+  margin-bottom: 25px;
+}
+
+.sl-card-content{
+  margin-top: 10px;
+}
+.sl-card h1  {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 18px;
+}
+
+.sl-card p{
+  color: #fff;
+  font-size: 14px;
+}
+.sl-card button{
+   width: auto;
+   padding-left: 18px;
+   padding-right: 18px;
+   margin-top: 15px;
+  }
+
+
+/*  */
  .main-content{
-    background-color: beige;
+    background-color: black;
     flex: 1;
     overflow: auto;
     border-radius: 1rem;
