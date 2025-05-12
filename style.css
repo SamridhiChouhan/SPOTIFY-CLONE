@@ -258,12 +258,62 @@
 
 /*  */
  .main-content{
-    background-color: black;
+    background-color: #1f1f1f;
+    color: #fff;
     flex: 1;
     overflow: auto;
     border-radius: 1rem;
-
+    margin-top: 70px;
+    padding: 2rem 2rem;
  }
+
+ .m-contentHead{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .m-contentHead span{
+  margin-top: 0.7rem;
+  font-weight: 600;
+ }
+
+ .m-cards{
+  display: flex;
+  gap: 0.8rem; 
+  margin-bottom: 3rem;
+}
+
+ .card{
+  height: 275px;
+  width: 165px;
+  font-size: 16px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  /* background-color: #121111; */
+  margin-top: 1rem;
+  border-radius: 0.8rem;
+ }
+
+ .card-img{
+  background-image: url(assets/card1img.jpeg);
+  background-size: cover;
+  height: 168px;
+  width: 168px;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  /* margin-top: 0%; */
+ }
+
+ .card-info{
+  font-size: 14px;
+  opacity: 0.8;
+  margin-top: 1rem;
+ }
+
+ /*  */
 
  .music-player{
     background-color: rgba(251, 170, 251, 0.847);
